@@ -4,51 +4,37 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
     border: 0;
     margin: 0;
     font: inherit;
+    font-size:100%;
     font-family: 'Roboto', sans-serif;
-    list-style: none;
-}
-body{
-    font-size: 62.5%;
-}
-header{
-    width: 100%;
 }
 h1{
-    background-color: skyblue;
-    font-size: 3em;
+    font-size: 70px;
     font-weight: 600;
     text-align: center;
 }
 h2{
-    font-size: 2em;
+    font-size: 30px;
     font-weight: 200;
     text-align: center;
     color: white;
-    width: 75%;
+    width: 750px;
     margin: 0 auto 0 auto;
 }
 h2 strong{
     font-weight:600;
 }
 h3{
-    clear:both;
-    font-size: 1.8em;
+    font-size: 22px;
     font-weight: normal;
     text-align: center;
-    border-bottom: 0.1em solid #555555;
-    margin-top: 0.3em;
-    background-color: skyblue
-}
-h4{
-    font-size: 1.4em;
-    font-style: italic;
+    border-bottom: 1px solid #555555;
+    padding-bottom: 15px;
 }
 p{
-    padding-top: 0.2em;
-    font-size: 1.3em;
+    padding-top: 3px;
+    font-size: 16px;
 }
 a{
-    font-size: 1.4em;
     font-weight: bold;
     text-decoration: none;
     color: #000000;
@@ -56,55 +42,6 @@ a{
 a:hover{
     color: #aa0000;
     text-decoration: underline;
-}
-
-.header img{
-    width: 30em;
-    display: block;
-    margin: 7em auto 3em auto;
-}
-.tagline{
-    padding: 2em 0 2em 0;
-    background-color: #000000;
-}
-.summary{
-    font-size: 1.4em;
-    text-align: center;
-    width: 75%;
-    margin: 1.5em auto;
-}
-.projects, .articles, .certifications, .education, .interests, .skills{
-    width: 85%;
-    margin: 0 auto;
-}
-.projects li, .articles li, .skills li, .articles li, .education li, .certifications li, .education li, .interests li {
-    padding: 0.5em 0 0.5em 0;
-    clear: both;
-}
-.projects ul img {
-    float: left;
-    width: 50%;
-    clear: both;
-    margin-right: 0.5em;
-}
-.skills ul{
-    margin:1.5em 0 3em 0;
-}
-.certifications li, .education li, .interests li {
-    font-size: 1.4em;
-}
-.skills li {
-    font-weight: bold;
-    background-color: grey;
-    display: inline;
-    padding: 0.8em;
-    margin-right:0.3em;
-}
-.footer{
-    background-color: #999999;
-    color:white;
-    text-align:center;
-    padding: 2em 0 2em 0;    
 }
 
 /* clearfix */
@@ -119,4 +56,49 @@ a:hover{
 }
 .group {
   zoom: 1;
+}
+
+
+.header{
+    background-color: #999999;
+}
+.tagline{
+    padding: 20px 0 20px 0;
+    background-color: #000000;
+}
+.projects, .badges, .articles, .skills{
+    width: 750px;
+    margin: 0 auto;
+}
+.projects ul, .badges ul, .articles ul, .skills ul, .footer{
+    list-style: none;
+}
+.projects li, .articles li {
+    padding: 5px 0 5px 0;
+}
+.projects ul img {
+    width: 750px;
+}
+.badges img {
+    float:left;
+    padding-right: 10px;
+}
+.badges ul li {
+    clear:both;   
+}
+.skills ul{
+    margin:15px 0 30px 0;
+}
+.skills li {
+    font-weight: bold;
+    background-color: grey;
+    display: inline;
+    padding: 8px 8px 8px 8px;
+    margin-right:3px;
+}
+.footer{
+    background-color: #999999;
+    color:white;
+    text-align:center;
+    padding: 20px 0 20px 0;    
 }
