@@ -1,0 +1,46 @@
+body{
+    font-size: 62.5%;
+    font-family: $roboto_font;
+    color: $text_color;
+    background-color: $bg_color;
+}
+header{
+    
+    img{
+        width: 15em;
+        margin: 7em auto 0 auto;
+        @include desaturate;
+    }
+    
+    h1{
+        font-size: 2em;
+        font-weight: 300;
+        color: $text_color;
+        margin-top: 0.5em;
+        
+    }
+}
+/*
+.tagline {
+    padding: 2em 0 2em 0;
+    background-color: $main_text_color;
+
+    h2{
+        font-size: 2em;
+        font-weight: 200;
+        text-align: center;
+        color: white;
+    }
+    strong{
+        font-weight:600;
+    }
+}
+.summary{
+    font-size: 1.4em;
+    text-align: center;
+    width: 75%;
+    margin: 1.5em auto;
+}
+.project_img{
+    
+}*/
