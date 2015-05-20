@@ -38,35 +38,46 @@ table {
 body {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;
-  color: #292b2d; }
+  color: #f2f2f2;
+  background-color: #070707; }
 
 header img {
-  width: 30em;
-  display: block;
-  margin: 7em auto 3em auto; }
+  width: 15em;
+  margin: 7em auto 0 auto;
+  -webkit-filter: grayscale(1);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: url(#greyscale);
+  filter: gray; }
 header h1 {
-  font-size: 3em;
-  background-color: lightgoldenrodyellow;
-  font-weight: 600;
-  text-align: center;
-  color: #0E0E0E;
-  margin: 1em auto; }
+  font-size: 2em;
+  font-weight: 300;
+  color: #f2f2f2;
+  margin-top: 0.5em; }
 
+/*
 .tagline {
-  padding: 2em 0 2em 0;
-  background-color: #292b2d; }
-  .tagline h2 {
-    font-size: 2em;
-    font-weight: 200;
-    text-align: center;
-    color: white; }
-  .tagline strong {
-    font-weight: 600; }
+    padding: 2em 0 2em 0;
+    background-color: $main_text_color;
 
-.summary {
-  font-size: 1.4em;
-  text-align: center;
-  width: 75%;
-  margin: 1.5em auto; }
+    h2{
+        font-size: 2em;
+        font-weight: 200;
+        text-align: center;
+        color: white;
+    }
+    strong{
+        font-weight:600;
+    }
+}
+.summary{
+    font-size: 1.4em;
+    text-align: center;
+    width: 75%;
+    margin: 1.5em auto;
+}
+.project_img{
+    
+}*/
 
 /*# sourceMappingURL=main.css.map */

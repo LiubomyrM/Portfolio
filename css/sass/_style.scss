@@ -1,27 +1,26 @@
 body{
     font-size: 62.5%;
     font-family: $roboto_font;
-    color: $main_text_color;
+    color: $text_color;
+    background-color: $bg_color;
 }
 header{
     
     img{
-        width: 30em;
-        display: block;
-        margin: 7em auto 3em auto;
+        width: 15em;
+        margin: 7em auto 0 auto;
+        @include desaturate;
     }
     
     h1{
-        font-size: 3em;
-        background-color: lightgoldenrodyellow;
-        font-weight: 600;
-        text-align: center;
-        color: $header_font_color;
-        margin: 1em auto;
+        font-size: 2em;
+        font-weight: 300;
+        color: $text_color;
+        margin-top: 0.5em;
         
     }
 }
-
+/*
 .tagline {
     padding: 2em 0 2em 0;
     background-color: $main_text_color;
@@ -44,4 +43,4 @@ header{
 }
 .project_img{
     
-}
+}*/
