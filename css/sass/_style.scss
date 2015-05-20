@@ -5,21 +5,30 @@ body{
     background-color: $bg_color;
 }
 header{
-    
-    img{
-        width: 15em;
-        margin: 7em auto 0 auto;
-        @include desaturate;
+    .header_logo{
+        width: 30em;
+
+        img{
+            width: 15em;
+            margin: 7em auto 0 auto;
+            @include desaturate;
+        }
+
+        h1{
+            font-size: 2em;
+            font-weight: 300;
+            color: $text_color;
+            margin-top: 0.5em;
+            display: inline-block;
+
+        }
+        h2{
+            font-size: 1.2em;
+            color: $text_color;
+            display: inline-block;
+        }
+        }
     }
-    
-    h1{
-        font-size: 2em;
-        font-weight: 300;
-        color: $text_color;
-        margin-top: 0.5em;
-        
-    }
-}
 /*
 .tagline {
     padding: 2em 0 2em 0;
