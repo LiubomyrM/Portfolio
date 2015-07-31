@@ -39,45 +39,114 @@ body {
   font-size: 62.5%;
   font-family: "Roboto", sans-serif;
   color: #f2f2f2;
-  background-color: #070707; }
+  background-color: #f2f2f2; }
 
-header img {
-  width: 15em;
-  margin: 7em auto 0 auto;
+a {
+  color: #f2f2f2; }
+
+header {
+  padding: 70px 0 50px 0;
+  display: inline-block;
+  background-color: #070707;
+  margin: 0 auto;
+  width: 99em; }
+
+strong {
+  font-weight: 600; }
+
+.logo_container {
+  display: inline-block;
+  float: left;
+  width: 340px; }
+
+.logo_img {
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 5px;
   -webkit-filter: grayscale(1);
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   filter: url(#greyscale);
   filter: gray; }
-header h1 {
-  font-size: 2em;
+
+h1 {
+  font-size: 20px;
   font-weight: 300;
   color: #f2f2f2;
-  margin-top: 0.5em; }
+  margin-left: 5px; }
 
-/*
-.tagline {
-    padding: 2em 0 2em 0;
-    background-color: $main_text_color;
+h2 {
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 10px; }
 
-    h2{
-        font-size: 2em;
-        font-weight: 200;
-        text-align: center;
-        color: white;
-    }
-    strong{
-        font-weight:600;
-    }
-}
-.summary{
-    font-size: 1.4em;
-    text-align: center;
-    width: 75%;
-    margin: 1.5em auto;
-}
-.project_img{
-    
-}*/
+nav {
+  display: inline-block;
+  width: 650px;
+  margin: 7px auto 0 auto; }
+
+.navigation {
+  display: none;
+  float: left; }
+
+.contact_info {
+  margin-right: 5px;
+  float: right; }
+
+main {
+  margin: 0 auto;
+  width: 99em; }
+
+.static_section {
+  background-color: #070707;
+  width: 640px;
+  height: 700px;
+  float: right; }
+
+.slidein {
+  float: left;
+  border-right: 1px dashed #f2f2f2;
+  height: 700px;
+  width: 349px;
+  background-color: #070707; }
+
+.slidein2 {
+  margin: 10px;
+  border-top: 1px dashed #f2f2f2; }
+
+.summary {
+  margin: 0 10px 0 10px;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: center; }
+
+.projects {
+  margin-left: 10px; }
+  .projects h3 {
+    padding-top: 20px;
+    border-top: 1px dashed #f2f2f2; }
+  .projects li {
+    margin-top: 10px; }
+
+h3 {
+  margin: 0px auto 10px auto;
+  font-size: 16px;
+  font-weight: 300; }
+
+h4 {
+  font-size: 12px; }
+
+p {
+  margin-top: 8px; }
+
+.skills, .education, .interests {
+  margin-top: 15px; }
+
+#show {
+  display: inline; }
+
+#hide {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */

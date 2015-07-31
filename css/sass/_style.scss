@@ -1,46 +1,112 @@
 body{
     font-size: 62.5%;
     font-family: $roboto_font;
-    color: $text_color;
-    background-color: $bg_color;
+    color: $white_color;
+    background-color: $white_color;
 }
-header{
-    
-    img{
-        width: 15em;
-        margin: 7em auto 0 auto;
-        @include desaturate;
-    }
-    
-    h1{
-        font-size: 2em;
-        font-weight: 300;
-        color: $text_color;
-        margin-top: 0.5em;
-        
-    }
+a{
+    color: $white_color;
 }
-/*
-.tagline {
-    padding: 2em 0 2em 0;
-    background-color: $main_text_color;
-
-    h2{
-        font-size: 2em;
-        font-weight: 200;
-        text-align: center;
-        color: white;
-    }
-    strong{
-        font-weight:600;
-    }
+header {
+    padding: 70px 0 50px 0;
+    display: inline-block;
+    background-color: $dark_color;
+    @include content_pos;
 }
-.summary{
-    font-size: 1.4em;
+strong {
+    font-weight: 600;
+}
+.logo_container{
+    display: inline-block;
+    float: left;
+    width: 340px;
+}
+.logo_img{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 5px;
+    @include desaturate;
+}       
+h1{
+    font-size: 20px;
+    font-weight: 300;
+    color: $white_color;
+    margin-left: 5px;
+}
+h2 {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+nav {
+    display: inline-block;
+    width: 650px;
+    margin: 7px auto 0 auto;
+}
+.navigation{
+    display: none;
+    float: left;
+}
+.contact_info{
+    margin-right: 5px;
+    float: right;
+}
+main {
+    @include content_pos;
+}
+.static_section{
+    background-color: $dark_color;
+    width: 640px;
+    height: 700px;
+    float: right;
+}
+.slidein {
+    float: left;
+    border-right: 1px dashed $white_color;
+    height: 700px;
+    width: 349px;
+    background-color: $dark_color;
+    //display: none;
+}
+.slidein2 {
+    margin: 10px;
+    border-top: 1px dashed $white_color;
+    //display: none;
+}
+.summary {
+    margin: 0 10px 0 10px;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 300;
     text-align: center;
-    width: 75%;
-    margin: 1.5em auto;
 }
-.project_img{
-    
-}*/
+.projects {
+    margin-left:10px;
+h3 {
+    padding-top: 20px;
+    border-top: 1px dashed $white_color;
+}
+    li {
+        margin-top: 10px;
+    }
+}
+h3 {
+        margin: 0px auto 10px auto;
+        font-size: 16px;
+        font-weight: 300;
+}
+h4 {
+    font-size: 12px;
+    }
+p {
+    margin-top: 8px;
+}
+.skills, .education, .interests {
+   margin-top: 15px; 
+}
+#show {
+    display:inline;
+}
+#hide{
+    display: none;
+}

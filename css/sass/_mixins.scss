@@ -13,3 +13,8 @@
     filter: url(#greyscale);
     filter: gray;
 }
+
+@mixin content_pos {
+    margin: 0 auto;
+    width: 99em;
+    }
